@@ -38,6 +38,8 @@ init(Params) ->
         'number';
       {V2, _} when V2 =:= 2.0 ->
         'mask';
+      {V2, _} when V2 =:= 3.1.0 ->
+	'mask';
       {_, _} ->
         'unknown'
     end,
